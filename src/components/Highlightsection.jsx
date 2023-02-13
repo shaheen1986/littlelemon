@@ -1,7 +1,7 @@
 import React from "react";
 import prdone from "../images/photo1.jpg";
 
-const Products = () => {
+const Highlightsection = () => {
   return (
     <div>
       <div className="container">
@@ -20,8 +20,8 @@ const Products = () => {
           </div>
           <div className="order_tab">
             <h3>order a delivery</h3>
-            <span className="icon">
-              <i className="fa-solid fa-moped"></i>
+            <span>
+              <i className="fa fa-bicycle"></i>
             </span>
           </div>
         </div>
@@ -40,8 +40,8 @@ const Products = () => {
           </div>
           <div className="order_tab">
             <h3>order a delivery</h3>
-            <span className="icon">
-              <i className="fa-solid fa-moped"></i>
+            <span>
+              <i className="fa fa-bicycle"></i>
             </span>
           </div>
         </div>
@@ -60,8 +60,8 @@ const Products = () => {
           </div>
           <div className="order_tab">
             <h3>order a delivery</h3>
-            <span className="icon">
-              <i className="fa-solid fa-moped"></i>
+            <span>
+              <i className="fa fa-bicycle"></i>
             </span>
           </div>
         </div>
@@ -70,4 +70,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default Highlightsection;

@@ -171,7 +171,78 @@ section.sec_two header button {
   padding: 0 1rem 0 1rem;
 }
 .order_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.9rem;
   font-weight: bold;
   padding: 0 1rem 0 1rem;
+}
+.order_tab span {
+  font-size: 2rem;
+}
+.fter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+  color: gray;
+  background-color: rgb(238, 238, 238);
+  padding: 1rem;
+}
+.testimonials {
+  width: 100vw;
+}
+.testimonialsmain {
+  margin-top: 1rem;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 0 0 1rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonial {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.testimonialheading {
+  text-align: center;
+  padding: 0.5rem;
+}
+.testimonialsmain {
+}
+section.testimonials article {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+.testimonials .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec_one .aboutmain {
+  background-color: white;
+}
+.sec_one .main .abouttitle,
+.sec_one .main .aboutlocation,
+.sec_one .main .aboutdescription {
+  color: black;
+}
+.sec_one .aboutimage {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 60rem;
+}
+.sec_one .aboutimage img {
+  width: 15rem;
+  height: 15rem;
 }

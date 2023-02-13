@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sec_two = () => {
+const Highlight = () => {
   return (
     <div>
       <section className="sec_two">
@@ -15,4 +15,4 @@ const Sec_two = () => {
   );
 };
 
-export default Sec_two;
+export default Highlight;

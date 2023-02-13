@@ -1,7 +1,7 @@
 import React from "react";
 import photo1 from "../images/photo1.jpg";
 
-const Sec_one = () => {
+const Herosection = () => {
   return (
     <div>
       <section className="sec_one">
@@ -26,4 +26,4 @@ const Sec_one = () => {
   );
 };
 
-export default Sec_one;
+export default Herosection;

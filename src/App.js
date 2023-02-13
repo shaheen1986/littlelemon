@@ -1,17 +1,23 @@
 import React from "react";
-import Nav from "./components/Nav";
 import "./App.css";
-import Sec_one from "./components/Sec_one";
-import Sec_two from "./components/Sec_two";
-import Products from "./components/Products";
+import Highlightsection from "./components/Highlightsection";
+import Herosection from "./components/Herosection";
+import Highlight from "./components/Highlight";
+import Navigationbar from "./components/Navigationbar";
+import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
+import About from "./components/About";
 
 const App = () => {
   return (
     <>
-      <Nav></Nav>
-      <Sec_one></Sec_one>
-      <Sec_two></Sec_two>
-      <Products></Products>
+      <Navigationbar></Navigationbar>
+      <Herosection></Herosection>
+      <Highlight></Highlight>
+      <Highlightsection></Highlightsection>
+      <Testimonials></Testimonials>
+      <About></About>
+      <Footer></Footer>
     </>
   );
 };
